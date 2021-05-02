@@ -3,3 +3,4 @@ todo.txt
 *.swp
 dev.sqlite3
 dev-token
+.nyc_output
