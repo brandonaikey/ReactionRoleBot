@@ -11,13 +11,15 @@
   },
   "devDependencies": {
     "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
     "mocha": "^8.3.2",
     "nyc": "^15.1.0"
   },
   "scripts": {
     "dev": "node main.js dev-token",
     "knex": "node_modules/knex/bin/cli.js",
-    "test": "nyc --reporter=text mocha"
+    "test": "mocha",
+    "test:coverage": "nyc --reporter=text mocha"
   },
   "repository": {
     "type": "git",
