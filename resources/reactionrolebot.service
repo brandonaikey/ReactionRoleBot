@@ -1,7 +1,7 @@
 # Install this into /etc/systemd/system/
 
 [Unit]
-Description=No Bullshit Role React Discord Bot
+Description=Role Reaction Discord Bot
 Wants=network-online.target
 After=network.target network-online.target
 
